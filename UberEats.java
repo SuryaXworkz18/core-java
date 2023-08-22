@@ -1,4 +1,4 @@
-class Dunzo{
+class UberEats{
 	
 	public static double find(String foodName){
 		

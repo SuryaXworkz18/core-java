@@ -1,4 +1,4 @@
-class Dunzo{
+class Grubhub1{
 	
 	public static double find(String foodName){
 		
