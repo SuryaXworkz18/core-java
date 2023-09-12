@@ -1,0 +1,3 @@
+class AfterEffects extends Editingsoftware{
+
+}

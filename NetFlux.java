@@ -1,0 +1,5 @@
+class NetFlux extends OttPlatForm{
+
+
+
+}
