@@ -1,5 +1,0 @@
-class Fastract extends Watch{
-
-
-
-}

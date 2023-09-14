@@ -1,5 +1,0 @@
-class Imax extends Theatar{
-
-
-
-}

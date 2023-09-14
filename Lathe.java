@@ -1,3 +1,0 @@
-class Lathe extends Machine{
-
-}

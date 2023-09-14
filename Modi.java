@@ -1,5 +1,0 @@
-class Modi extends PM{
-
-
-
-}

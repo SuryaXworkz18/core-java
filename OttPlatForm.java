@@ -1,11 +1,32 @@
-class OttPlatForm{
-
-	public void getMovies(String kannadaMovie, String englishMovie, String hindiMovie){
-		System.out.println("Movies...............");
-		System.out.println("kannadaMovie" +"------"+ kannadaMovie);
-		System.out.println("englishMovie" + "----"+englishMovie);
-		System.out.println("hindiMovie" + "--"+hindiMovie);
-		System.out.println("End Movies.....................");
+class Ottplatform{
 	
+	String movieNames[] = new String[5];
+	int index;
+//ADD/CREATE/SAVE
+     public boolean addMovieName(String movieName){
+	 
+	 System.out.println("Inside add method");
+	 
+	 boolean isAdded = false;
+	 System.out.println("Validation of adding a movie");
+	 if(movieName != null){
+	 movieNames[index] = movieName;
+	 index++;
+	 isAdded= true;
+	 System.out.println("Movie add Successfully");
+	 
+	 
+	 }
+	 return isAdded;
+	 }
+
+//READ Operation
+public void getMovie(){
+	
+	for(int index = 0; index< movieNames.length-1;index++){
+		System.out.println(movieNames[index]);
+		
 	}
+	
+}
 }

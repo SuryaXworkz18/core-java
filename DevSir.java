@@ -1,6 +1,0 @@
-class DevSir extends Trainer{
-
-
-
-
-}
